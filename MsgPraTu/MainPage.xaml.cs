@@ -30,7 +30,7 @@ namespace MsgPraTu
             lista.Add("Creia em si, mas não duvide sempre dos outros.");
 
             Random random = new Random();
-            texto.Text = lista[random.Next(0, 4)];
+            texto.Text = lista[random.Next(0, lista.Count-1)];
 
 
         }
